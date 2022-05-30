@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a7c48ee1-4c85-4f19-a70c-5cc63ed5ddfc</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SwitchingPubSub.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AsyncResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IInvocationParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IInvocationResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IPubTarget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ISwitcingClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PubTarget.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SwitchingClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Usings.cs" />
+  </ItemGroup>
+</Project>

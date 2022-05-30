@@ -1,0 +1,8 @@
+﻿<Project>
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <RootNamespace>GPS.SwitchingPubSub</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+</Project>

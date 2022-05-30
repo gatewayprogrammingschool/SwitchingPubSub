@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>11d47cf5-e090-4b30-82fd-efaec758542f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SwitchingPubSub.Tests.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AlternateMessageReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SwitchingClientTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestMessageReceiver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestResultMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UnitTestBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XunitLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XunitLoggingProvider.cs" />
+    <Compile Include="..\..\SwitchingPubSub.Tests.Shared\UnitTestBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Usings.cs" />
+  </ItemGroup>
+</Project>
