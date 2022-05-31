@@ -1,0 +1,733 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: SwitchingPubSub
+  name: SwitchingPubSub
+  href: api/SwitchingPubSub.html
+  commentId: N:SwitchingPubSub
+  fullName: SwitchingPubSub
+  nameWithType: SwitchingPubSub
+- uid: SwitchingPubSub.AsyncResult
+  name: AsyncResult
+  href: api/SwitchingPubSub.AsyncResult.html
+  commentId: T:SwitchingPubSub.AsyncResult
+  fullName: SwitchingPubSub.AsyncResult
+  nameWithType: AsyncResult
+- uid: SwitchingPubSub.AsyncResult.AsyncState
+  name: AsyncState
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_AsyncState
+  commentId: P:SwitchingPubSub.AsyncResult.AsyncState
+  fullName: SwitchingPubSub.AsyncResult.AsyncState
+  nameWithType: AsyncResult.AsyncState
+- uid: SwitchingPubSub.AsyncResult.AsyncState*
+  name: AsyncState
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_AsyncState_
+  commentId: Overload:SwitchingPubSub.AsyncResult.AsyncState
+  isSpec: "True"
+  fullName: SwitchingPubSub.AsyncResult.AsyncState
+  nameWithType: AsyncResult.AsyncState
+- uid: SwitchingPubSub.AsyncResult.AsyncWaitHandle
+  name: AsyncWaitHandle
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_AsyncWaitHandle
+  commentId: P:SwitchingPubSub.AsyncResult.AsyncWaitHandle
+  fullName: SwitchingPubSub.AsyncResult.AsyncWaitHandle
+  nameWithType: AsyncResult.AsyncWaitHandle
+- uid: SwitchingPubSub.AsyncResult.AsyncWaitHandle*
+  name: AsyncWaitHandle
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_AsyncWaitHandle_
+  commentId: Overload:SwitchingPubSub.AsyncResult.AsyncWaitHandle
+  isSpec: "True"
+  fullName: SwitchingPubSub.AsyncResult.AsyncWaitHandle
+  nameWithType: AsyncResult.AsyncWaitHandle
+- uid: SwitchingPubSub.AsyncResult.CompletedSynchronously
+  name: CompletedSynchronously
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_CompletedSynchronously
+  commentId: P:SwitchingPubSub.AsyncResult.CompletedSynchronously
+  fullName: SwitchingPubSub.AsyncResult.CompletedSynchronously
+  nameWithType: AsyncResult.CompletedSynchronously
+- uid: SwitchingPubSub.AsyncResult.CompletedSynchronously*
+  name: CompletedSynchronously
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_CompletedSynchronously_
+  commentId: Overload:SwitchingPubSub.AsyncResult.CompletedSynchronously
+  isSpec: "True"
+  fullName: SwitchingPubSub.AsyncResult.CompletedSynchronously
+  nameWithType: AsyncResult.CompletedSynchronously
+- uid: SwitchingPubSub.AsyncResult.Dispose
+  name: Dispose()
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_Dispose
+  commentId: M:SwitchingPubSub.AsyncResult.Dispose
+  fullName: SwitchingPubSub.AsyncResult.Dispose()
+  nameWithType: AsyncResult.Dispose()
+- uid: SwitchingPubSub.AsyncResult.Dispose*
+  name: Dispose
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_Dispose_
+  commentId: Overload:SwitchingPubSub.AsyncResult.Dispose
+  isSpec: "True"
+  fullName: SwitchingPubSub.AsyncResult.Dispose
+  nameWithType: AsyncResult.Dispose
+- uid: SwitchingPubSub.AsyncResult.Fault
+  name: Fault
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_Fault
+  commentId: P:SwitchingPubSub.AsyncResult.Fault
+  fullName: SwitchingPubSub.AsyncResult.Fault
+  nameWithType: AsyncResult.Fault
+- uid: SwitchingPubSub.AsyncResult.Fault*
+  name: Fault
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_Fault_
+  commentId: Overload:SwitchingPubSub.AsyncResult.Fault
+  isSpec: "True"
+  fullName: SwitchingPubSub.AsyncResult.Fault
+  nameWithType: AsyncResult.Fault
+- uid: SwitchingPubSub.AsyncResult.IsCompleted
+  name: IsCompleted
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_IsCompleted
+  commentId: P:SwitchingPubSub.AsyncResult.IsCompleted
+  fullName: SwitchingPubSub.AsyncResult.IsCompleted
+  nameWithType: AsyncResult.IsCompleted
+- uid: SwitchingPubSub.AsyncResult.IsCompleted*
+  name: IsCompleted
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_IsCompleted_
+  commentId: Overload:SwitchingPubSub.AsyncResult.IsCompleted
+  isSpec: "True"
+  fullName: SwitchingPubSub.AsyncResult.IsCompleted
+  nameWithType: AsyncResult.IsCompleted
+- uid: SwitchingPubSub.AsyncResult.IsFaulted
+  name: IsFaulted
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_IsFaulted
+  commentId: P:SwitchingPubSub.AsyncResult.IsFaulted
+  fullName: SwitchingPubSub.AsyncResult.IsFaulted
+  nameWithType: AsyncResult.IsFaulted
+- uid: SwitchingPubSub.AsyncResult.IsFaulted*
+  name: IsFaulted
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_IsFaulted_
+  commentId: Overload:SwitchingPubSub.AsyncResult.IsFaulted
+  isSpec: "True"
+  fullName: SwitchingPubSub.AsyncResult.IsFaulted
+  nameWithType: AsyncResult.IsFaulted
+- uid: SwitchingPubSub.AsyncResult.Semaphore
+  name: Semaphore
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_Semaphore
+  commentId: P:SwitchingPubSub.AsyncResult.Semaphore
+  fullName: SwitchingPubSub.AsyncResult.Semaphore
+  nameWithType: AsyncResult.Semaphore
+- uid: SwitchingPubSub.AsyncResult.Semaphore*
+  name: Semaphore
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_Semaphore_
+  commentId: Overload:SwitchingPubSub.AsyncResult.Semaphore
+  isSpec: "True"
+  fullName: SwitchingPubSub.AsyncResult.Semaphore
+  nameWithType: AsyncResult.Semaphore
+- uid: SwitchingPubSub.AsyncResult.ToString
+  name: ToString()
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_ToString
+  commentId: M:SwitchingPubSub.AsyncResult.ToString
+  fullName: SwitchingPubSub.AsyncResult.ToString()
+  nameWithType: AsyncResult.ToString()
+- uid: SwitchingPubSub.AsyncResult.ToString*
+  name: ToString
+  href: api/SwitchingPubSub.AsyncResult.html#SwitchingPubSub_AsyncResult_ToString_
+  commentId: Overload:SwitchingPubSub.AsyncResult.ToString
+  isSpec: "True"
+  fullName: SwitchingPubSub.AsyncResult.ToString
+  nameWithType: AsyncResult.ToString
+- uid: SwitchingPubSub.IInvocationParameters
+  name: IInvocationParameters
+  href: api/SwitchingPubSub.IInvocationParameters.html
+  commentId: T:SwitchingPubSub.IInvocationParameters
+  fullName: SwitchingPubSub.IInvocationParameters
+  nameWithType: IInvocationParameters
+- uid: SwitchingPubSub.IInvocationParameters.Name
+  name: Name
+  href: api/SwitchingPubSub.IInvocationParameters.html#SwitchingPubSub_IInvocationParameters_Name
+  commentId: P:SwitchingPubSub.IInvocationParameters.Name
+  fullName: SwitchingPubSub.IInvocationParameters.Name
+  nameWithType: IInvocationParameters.Name
+- uid: SwitchingPubSub.IInvocationParameters.Name*
+  name: Name
+  href: api/SwitchingPubSub.IInvocationParameters.html#SwitchingPubSub_IInvocationParameters_Name_
+  commentId: Overload:SwitchingPubSub.IInvocationParameters.Name
+  isSpec: "True"
+  fullName: SwitchingPubSub.IInvocationParameters.Name
+  nameWithType: IInvocationParameters.Name
+- uid: SwitchingPubSub.IInvocationParameters.Parameters
+  name: Parameters
+  href: api/SwitchingPubSub.IInvocationParameters.html#SwitchingPubSub_IInvocationParameters_Parameters
+  commentId: P:SwitchingPubSub.IInvocationParameters.Parameters
+  fullName: SwitchingPubSub.IInvocationParameters.Parameters
+  nameWithType: IInvocationParameters.Parameters
+- uid: SwitchingPubSub.IInvocationParameters.Parameters*
+  name: Parameters
+  href: api/SwitchingPubSub.IInvocationParameters.html#SwitchingPubSub_IInvocationParameters_Parameters_
+  commentId: Overload:SwitchingPubSub.IInvocationParameters.Parameters
+  isSpec: "True"
+  fullName: SwitchingPubSub.IInvocationParameters.Parameters
+  nameWithType: IInvocationParameters.Parameters
+- uid: SwitchingPubSub.IInvocationResult
+  name: IInvocationResult
+  href: api/SwitchingPubSub.IInvocationResult.html
+  commentId: T:SwitchingPubSub.IInvocationResult
+  fullName: SwitchingPubSub.IInvocationResult
+  nameWithType: IInvocationResult
+- uid: SwitchingPubSub.IInvocationResult.Name
+  name: Name
+  href: api/SwitchingPubSub.IInvocationResult.html#SwitchingPubSub_IInvocationResult_Name
+  commentId: P:SwitchingPubSub.IInvocationResult.Name
+  fullName: SwitchingPubSub.IInvocationResult.Name
+  nameWithType: IInvocationResult.Name
+- uid: SwitchingPubSub.IInvocationResult.Name*
+  name: Name
+  href: api/SwitchingPubSub.IInvocationResult.html#SwitchingPubSub_IInvocationResult_Name_
+  commentId: Overload:SwitchingPubSub.IInvocationResult.Name
+  isSpec: "True"
+  fullName: SwitchingPubSub.IInvocationResult.Name
+  nameWithType: IInvocationResult.Name
+- uid: SwitchingPubSub.IInvocationResult.ReturnValues
+  name: ReturnValues
+  href: api/SwitchingPubSub.IInvocationResult.html#SwitchingPubSub_IInvocationResult_ReturnValues
+  commentId: P:SwitchingPubSub.IInvocationResult.ReturnValues
+  fullName: SwitchingPubSub.IInvocationResult.ReturnValues
+  nameWithType: IInvocationResult.ReturnValues
+- uid: SwitchingPubSub.IInvocationResult.ReturnValues*
+  name: ReturnValues
+  href: api/SwitchingPubSub.IInvocationResult.html#SwitchingPubSub_IInvocationResult_ReturnValues_
+  commentId: Overload:SwitchingPubSub.IInvocationResult.ReturnValues
+  isSpec: "True"
+  fullName: SwitchingPubSub.IInvocationResult.ReturnValues
+  nameWithType: IInvocationResult.ReturnValues
+- uid: SwitchingPubSub.IInvocationResult.SetResult(System.Object)
+  name: SetResult(Object)
+  href: api/SwitchingPubSub.IInvocationResult.html#SwitchingPubSub_IInvocationResult_SetResult_System_Object_
+  commentId: M:SwitchingPubSub.IInvocationResult.SetResult(System.Object)
+  fullName: SwitchingPubSub.IInvocationResult.SetResult(System.Object)
+  nameWithType: IInvocationResult.SetResult(Object)
+- uid: SwitchingPubSub.IInvocationResult.SetResult*
+  name: SetResult
+  href: api/SwitchingPubSub.IInvocationResult.html#SwitchingPubSub_IInvocationResult_SetResult_
+  commentId: Overload:SwitchingPubSub.IInvocationResult.SetResult
+  isSpec: "True"
+  fullName: SwitchingPubSub.IInvocationResult.SetResult
+  nameWithType: IInvocationResult.SetResult
+- uid: SwitchingPubSub.IMessageReceiver
+  name: IMessageReceiver
+  href: api/SwitchingPubSub.IMessageReceiver.html
+  commentId: T:SwitchingPubSub.IMessageReceiver
+  fullName: SwitchingPubSub.IMessageReceiver
+  nameWithType: IMessageReceiver
+- uid: SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync(IDictionary{System.String,System.Object})
+  name: ReceiveMessageAsync(IDictionary<String, Object>)
+  href: api/SwitchingPubSub.IMessageReceiver.html#SwitchingPubSub_IMessageReceiver_ReceiveMessageAsync_IDictionary_System_String_System_Object__
+  commentId: M:SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync(IDictionary{System.String,System.Object})
+  name.vb: ReceiveMessageAsync(IDictionary(Of String, Object))
+  fullName: SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync(IDictionary<System.String, System.Object>)
+  fullName.vb: SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync(IDictionary(Of System.String, System.Object))
+  nameWithType: IMessageReceiver.ReceiveMessageAsync(IDictionary<String, Object>)
+  nameWithType.vb: IMessageReceiver.ReceiveMessageAsync(IDictionary(Of String, Object))
+- uid: SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync*
+  name: ReceiveMessageAsync
+  href: api/SwitchingPubSub.IMessageReceiver.html#SwitchingPubSub_IMessageReceiver_ReceiveMessageAsync_
+  commentId: Overload:SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync
+  isSpec: "True"
+  fullName: SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync
+  nameWithType: IMessageReceiver.ReceiveMessageAsync
+- uid: SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync``1(IDictionary{System.String,System.Object})
+  name: ReceiveMessageAsync<TResult>(IDictionary<String, Object>)
+  href: api/SwitchingPubSub.IMessageReceiver.html#SwitchingPubSub_IMessageReceiver_ReceiveMessageAsync__1_IDictionary_System_String_System_Object__
+  commentId: M:SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync``1(IDictionary{System.String,System.Object})
+  name.vb: ReceiveMessageAsync(Of TResult)(IDictionary(Of String, Object))
+  fullName: SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync<TResult>(IDictionary<System.String, System.Object>)
+  fullName.vb: SwitchingPubSub.IMessageReceiver.ReceiveMessageAsync(Of TResult)(IDictionary(Of System.String, System.Object))
+  nameWithType: IMessageReceiver.ReceiveMessageAsync<TResult>(IDictionary<String, Object>)
+  nameWithType.vb: IMessageReceiver.ReceiveMessageAsync(Of TResult)(IDictionary(Of String, Object))
+- uid: SwitchingPubSub.IPubTarget`1
+  name: IPubTarget<TTarget>
+  href: api/SwitchingPubSub.IPubTarget-1.html
+  commentId: T:SwitchingPubSub.IPubTarget`1
+  name.vb: IPubTarget(Of TTarget)
+  fullName: SwitchingPubSub.IPubTarget<TTarget>
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget)
+  nameWithType: IPubTarget<TTarget>
+  nameWithType.vb: IPubTarget(Of TTarget)
+- uid: SwitchingPubSub.IPubTarget`1.BeginInvoke*
+  name: BeginInvoke
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_BeginInvoke_
+  commentId: Overload:SwitchingPubSub.IPubTarget`1.BeginInvoke
+  isSpec: "True"
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.BeginInvoke
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).BeginInvoke
+  nameWithType: IPubTarget<TTarget>.BeginInvoke
+  nameWithType.vb: IPubTarget(Of TTarget).BeginInvoke
+- uid: SwitchingPubSub.IPubTarget`1.BeginInvoke``1(``0)
+  name: BeginInvoke<TRequest>(TRequest)
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_BeginInvoke__1___0_
+  commentId: M:SwitchingPubSub.IPubTarget`1.BeginInvoke``1(``0)
+  name.vb: BeginInvoke(Of TRequest)(TRequest)
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.BeginInvoke<TRequest>(TRequest)
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).BeginInvoke(Of TRequest)(TRequest)
+  nameWithType: IPubTarget<TTarget>.BeginInvoke<TRequest>(TRequest)
+  nameWithType.vb: IPubTarget(Of TTarget).BeginInvoke(Of TRequest)(TRequest)
+- uid: SwitchingPubSub.IPubTarget`1.BeginInvoke``2(``0)
+  name: BeginInvoke<TRequest, TResult>(TRequest)
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_BeginInvoke__2___0_
+  commentId: M:SwitchingPubSub.IPubTarget`1.BeginInvoke``2(``0)
+  name.vb: BeginInvoke(Of TRequest, TResult)(TRequest)
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.BeginInvoke<TRequest, TResult>(TRequest)
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).BeginInvoke(Of TRequest, TResult)(TRequest)
+  nameWithType: IPubTarget<TTarget>.BeginInvoke<TRequest, TResult>(TRequest)
+  nameWithType.vb: IPubTarget(Of TTarget).BeginInvoke(Of TRequest, TResult)(TRequest)
+- uid: SwitchingPubSub.IPubTarget`1.EndInvoke(SwitchingPubSub.AsyncResult)
+  name: EndInvoke(AsyncResult)
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_EndInvoke_SwitchingPubSub_AsyncResult_
+  commentId: M:SwitchingPubSub.IPubTarget`1.EndInvoke(SwitchingPubSub.AsyncResult)
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.EndInvoke(SwitchingPubSub.AsyncResult)
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).EndInvoke(SwitchingPubSub.AsyncResult)
+  nameWithType: IPubTarget<TTarget>.EndInvoke(AsyncResult)
+  nameWithType.vb: IPubTarget(Of TTarget).EndInvoke(AsyncResult)
+- uid: SwitchingPubSub.IPubTarget`1.EndInvoke*
+  name: EndInvoke
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_EndInvoke_
+  commentId: Overload:SwitchingPubSub.IPubTarget`1.EndInvoke
+  isSpec: "True"
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.EndInvoke
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).EndInvoke
+  nameWithType: IPubTarget<TTarget>.EndInvoke
+  nameWithType.vb: IPubTarget(Of TTarget).EndInvoke
+- uid: SwitchingPubSub.IPubTarget`1.EndInvoke``1(SwitchingPubSub.AsyncResult)
+  name: EndInvoke<TResult>(AsyncResult)
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_EndInvoke__1_SwitchingPubSub_AsyncResult_
+  commentId: M:SwitchingPubSub.IPubTarget`1.EndInvoke``1(SwitchingPubSub.AsyncResult)
+  name.vb: EndInvoke(Of TResult)(AsyncResult)
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.EndInvoke<TResult>(SwitchingPubSub.AsyncResult)
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).EndInvoke(Of TResult)(SwitchingPubSub.AsyncResult)
+  nameWithType: IPubTarget<TTarget>.EndInvoke<TResult>(AsyncResult)
+  nameWithType.vb: IPubTarget(Of TTarget).EndInvoke(Of TResult)(AsyncResult)
+- uid: SwitchingPubSub.IPubTarget`1.Invoke*
+  name: Invoke
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_Invoke_
+  commentId: Overload:SwitchingPubSub.IPubTarget`1.Invoke
+  isSpec: "True"
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.Invoke
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).Invoke
+  nameWithType: IPubTarget<TTarget>.Invoke
+  nameWithType.vb: IPubTarget(Of TTarget).Invoke
+- uid: SwitchingPubSub.IPubTarget`1.Invoke``1(``0)
+  name: Invoke<TRequest>(TRequest)
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_Invoke__1___0_
+  commentId: M:SwitchingPubSub.IPubTarget`1.Invoke``1(``0)
+  name.vb: Invoke(Of TRequest)(TRequest)
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.Invoke<TRequest>(TRequest)
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).Invoke(Of TRequest)(TRequest)
+  nameWithType: IPubTarget<TTarget>.Invoke<TRequest>(TRequest)
+  nameWithType.vb: IPubTarget(Of TTarget).Invoke(Of TRequest)(TRequest)
+- uid: SwitchingPubSub.IPubTarget`1.Invoke``2(``0)
+  name: Invoke<TRequest, TResult>(TRequest)
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_Invoke__2___0_
+  commentId: M:SwitchingPubSub.IPubTarget`1.Invoke``2(``0)
+  name.vb: Invoke(Of TRequest, TResult)(TRequest)
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.Invoke<TRequest, TResult>(TRequest)
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).Invoke(Of TRequest, TResult)(TRequest)
+  nameWithType: IPubTarget<TTarget>.Invoke<TRequest, TResult>(TRequest)
+  nameWithType.vb: IPubTarget(Of TTarget).Invoke(Of TRequest, TResult)(TRequest)
+- uid: SwitchingPubSub.IPubTarget`1.InvokeAsync*
+  name: InvokeAsync
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_InvokeAsync_
+  commentId: Overload:SwitchingPubSub.IPubTarget`1.InvokeAsync
+  isSpec: "True"
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.InvokeAsync
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).InvokeAsync
+  nameWithType: IPubTarget<TTarget>.InvokeAsync
+  nameWithType.vb: IPubTarget(Of TTarget).InvokeAsync
+- uid: SwitchingPubSub.IPubTarget`1.InvokeAsync``1(``0)
+  name: InvokeAsync<TRequest>(TRequest)
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_InvokeAsync__1___0_
+  commentId: M:SwitchingPubSub.IPubTarget`1.InvokeAsync``1(``0)
+  name.vb: InvokeAsync(Of TRequest)(TRequest)
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.InvokeAsync<TRequest>(TRequest)
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).InvokeAsync(Of TRequest)(TRequest)
+  nameWithType: IPubTarget<TTarget>.InvokeAsync<TRequest>(TRequest)
+  nameWithType.vb: IPubTarget(Of TTarget).InvokeAsync(Of TRequest)(TRequest)
+- uid: SwitchingPubSub.IPubTarget`1.InvokeAsync``2(``0)
+  name: InvokeAsync<TRequest, TResult>(TRequest)
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_InvokeAsync__2___0_
+  commentId: M:SwitchingPubSub.IPubTarget`1.InvokeAsync``2(``0)
+  name.vb: InvokeAsync(Of TRequest, TResult)(TRequest)
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.InvokeAsync<TRequest, TResult>(TRequest)
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).InvokeAsync(Of TRequest, TResult)(TRequest)
+  nameWithType: IPubTarget<TTarget>.InvokeAsync<TRequest, TResult>(TRequest)
+  nameWithType.vb: IPubTarget(Of TTarget).InvokeAsync(Of TRequest, TResult)(TRequest)
+- uid: SwitchingPubSub.IPubTarget`1.TargetType
+  name: TargetType
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_TargetType
+  commentId: P:SwitchingPubSub.IPubTarget`1.TargetType
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.TargetType
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).TargetType
+  nameWithType: IPubTarget<TTarget>.TargetType
+  nameWithType.vb: IPubTarget(Of TTarget).TargetType
+- uid: SwitchingPubSub.IPubTarget`1.TargetType*
+  name: TargetType
+  href: api/SwitchingPubSub.IPubTarget-1.html#SwitchingPubSub_IPubTarget_1_TargetType_
+  commentId: Overload:SwitchingPubSub.IPubTarget`1.TargetType
+  isSpec: "True"
+  fullName: SwitchingPubSub.IPubTarget<TTarget>.TargetType
+  fullName.vb: SwitchingPubSub.IPubTarget(Of TTarget).TargetType
+  nameWithType: IPubTarget<TTarget>.TargetType
+  nameWithType.vb: IPubTarget(Of TTarget).TargetType
+- uid: SwitchingPubSub.ISwitcingClient`1
+  name: ISwitcingClient<TTarget>
+  href: api/SwitchingPubSub.ISwitcingClient-1.html
+  commentId: T:SwitchingPubSub.ISwitcingClient`1
+  name.vb: ISwitcingClient(Of TTarget)
+  fullName: SwitchingPubSub.ISwitcingClient<TTarget>
+  fullName.vb: SwitchingPubSub.ISwitcingClient(Of TTarget)
+  nameWithType: ISwitcingClient<TTarget>
+  nameWithType.vb: ISwitcingClient(Of TTarget)
+- uid: SwitchingPubSub.ISwitcingClient`1.PubTarget
+  name: PubTarget
+  href: api/SwitchingPubSub.ISwitcingClient-1.html#SwitchingPubSub_ISwitcingClient_1_PubTarget
+  commentId: P:SwitchingPubSub.ISwitcingClient`1.PubTarget
+  fullName: SwitchingPubSub.ISwitcingClient<TTarget>.PubTarget
+  fullName.vb: SwitchingPubSub.ISwitcingClient(Of TTarget).PubTarget
+  nameWithType: ISwitcingClient<TTarget>.PubTarget
+  nameWithType.vb: ISwitcingClient(Of TTarget).PubTarget
+- uid: SwitchingPubSub.ISwitcingClient`1.PubTarget*
+  name: PubTarget
+  href: api/SwitchingPubSub.ISwitcingClient-1.html#SwitchingPubSub_ISwitcingClient_1_PubTarget_
+  commentId: Overload:SwitchingPubSub.ISwitcingClient`1.PubTarget
+  isSpec: "True"
+  fullName: SwitchingPubSub.ISwitcingClient<TTarget>.PubTarget
+  fullName.vb: SwitchingPubSub.ISwitcingClient(Of TTarget).PubTarget
+  nameWithType: ISwitcingClient<TTarget>.PubTarget
+  nameWithType.vb: ISwitcingClient(Of TTarget).PubTarget
+- uid: SwitchingPubSub.PubTarget`1
+  name: PubTarget<TTarget>
+  href: api/SwitchingPubSub.PubTarget-1.html
+  commentId: T:SwitchingPubSub.PubTarget`1
+  name.vb: PubTarget(Of TTarget)
+  fullName: SwitchingPubSub.PubTarget<TTarget>
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget)
+  nameWithType: PubTarget<TTarget>
+  nameWithType.vb: PubTarget(Of TTarget)
+- uid: SwitchingPubSub.PubTarget`1.#ctor(IServiceProvider)
+  name: PubTarget(IServiceProvider)
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1__ctor_IServiceProvider_
+  commentId: M:SwitchingPubSub.PubTarget`1.#ctor(IServiceProvider)
+  fullName: SwitchingPubSub.PubTarget<TTarget>.PubTarget(IServiceProvider)
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).PubTarget(IServiceProvider)
+  nameWithType: PubTarget<TTarget>.PubTarget(IServiceProvider)
+  nameWithType.vb: PubTarget(Of TTarget).PubTarget(IServiceProvider)
+- uid: SwitchingPubSub.PubTarget`1.#ctor*
+  name: PubTarget
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1__ctor_
+  commentId: Overload:SwitchingPubSub.PubTarget`1.#ctor
+  isSpec: "True"
+  fullName: SwitchingPubSub.PubTarget<TTarget>.PubTarget
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).PubTarget
+  nameWithType: PubTarget<TTarget>.PubTarget
+  nameWithType.vb: PubTarget(Of TTarget).PubTarget
+- uid: SwitchingPubSub.PubTarget`1.BeginInvoke*
+  name: BeginInvoke
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_BeginInvoke_
+  commentId: Overload:SwitchingPubSub.PubTarget`1.BeginInvoke
+  isSpec: "True"
+  fullName: SwitchingPubSub.PubTarget<TTarget>.BeginInvoke
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).BeginInvoke
+  nameWithType: PubTarget<TTarget>.BeginInvoke
+  nameWithType.vb: PubTarget(Of TTarget).BeginInvoke
+- uid: SwitchingPubSub.PubTarget`1.BeginInvoke``1(``0)
+  name: BeginInvoke<TRequest>(TRequest)
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_BeginInvoke__1___0_
+  commentId: M:SwitchingPubSub.PubTarget`1.BeginInvoke``1(``0)
+  name.vb: BeginInvoke(Of TRequest)(TRequest)
+  fullName: SwitchingPubSub.PubTarget<TTarget>.BeginInvoke<TRequest>(TRequest)
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).BeginInvoke(Of TRequest)(TRequest)
+  nameWithType: PubTarget<TTarget>.BeginInvoke<TRequest>(TRequest)
+  nameWithType.vb: PubTarget(Of TTarget).BeginInvoke(Of TRequest)(TRequest)
+- uid: SwitchingPubSub.PubTarget`1.BeginInvoke``2(``0)
+  name: BeginInvoke<TRequest, TResult>(TRequest)
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_BeginInvoke__2___0_
+  commentId: M:SwitchingPubSub.PubTarget`1.BeginInvoke``2(``0)
+  name.vb: BeginInvoke(Of TRequest, TResult)(TRequest)
+  fullName: SwitchingPubSub.PubTarget<TTarget>.BeginInvoke<TRequest, TResult>(TRequest)
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).BeginInvoke(Of TRequest, TResult)(TRequest)
+  nameWithType: PubTarget<TTarget>.BeginInvoke<TRequest, TResult>(TRequest)
+  nameWithType.vb: PubTarget(Of TTarget).BeginInvoke(Of TRequest, TResult)(TRequest)
+- uid: SwitchingPubSub.PubTarget`1.EndInvoke(SwitchingPubSub.AsyncResult)
+  name: EndInvoke(AsyncResult)
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_EndInvoke_SwitchingPubSub_AsyncResult_
+  commentId: M:SwitchingPubSub.PubTarget`1.EndInvoke(SwitchingPubSub.AsyncResult)
+  fullName: SwitchingPubSub.PubTarget<TTarget>.EndInvoke(SwitchingPubSub.AsyncResult)
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).EndInvoke(SwitchingPubSub.AsyncResult)
+  nameWithType: PubTarget<TTarget>.EndInvoke(AsyncResult)
+  nameWithType.vb: PubTarget(Of TTarget).EndInvoke(AsyncResult)
+- uid: SwitchingPubSub.PubTarget`1.EndInvoke*
+  name: EndInvoke
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_EndInvoke_
+  commentId: Overload:SwitchingPubSub.PubTarget`1.EndInvoke
+  isSpec: "True"
+  fullName: SwitchingPubSub.PubTarget<TTarget>.EndInvoke
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).EndInvoke
+  nameWithType: PubTarget<TTarget>.EndInvoke
+  nameWithType.vb: PubTarget(Of TTarget).EndInvoke
+- uid: SwitchingPubSub.PubTarget`1.EndInvoke``1(SwitchingPubSub.AsyncResult)
+  name: EndInvoke<TResult>(AsyncResult)
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_EndInvoke__1_SwitchingPubSub_AsyncResult_
+  commentId: M:SwitchingPubSub.PubTarget`1.EndInvoke``1(SwitchingPubSub.AsyncResult)
+  name.vb: EndInvoke(Of TResult)(AsyncResult)
+  fullName: SwitchingPubSub.PubTarget<TTarget>.EndInvoke<TResult>(SwitchingPubSub.AsyncResult)
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).EndInvoke(Of TResult)(SwitchingPubSub.AsyncResult)
+  nameWithType: PubTarget<TTarget>.EndInvoke<TResult>(AsyncResult)
+  nameWithType.vb: PubTarget(Of TTarget).EndInvoke(Of TResult)(AsyncResult)
+- uid: SwitchingPubSub.PubTarget`1.Invoke*
+  name: Invoke
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_Invoke_
+  commentId: Overload:SwitchingPubSub.PubTarget`1.Invoke
+  isSpec: "True"
+  fullName: SwitchingPubSub.PubTarget<TTarget>.Invoke
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).Invoke
+  nameWithType: PubTarget<TTarget>.Invoke
+  nameWithType.vb: PubTarget(Of TTarget).Invoke
+- uid: SwitchingPubSub.PubTarget`1.Invoke``1(``0)
+  name: Invoke<TRequest>(TRequest)
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_Invoke__1___0_
+  commentId: M:SwitchingPubSub.PubTarget`1.Invoke``1(``0)
+  name.vb: Invoke(Of TRequest)(TRequest)
+  fullName: SwitchingPubSub.PubTarget<TTarget>.Invoke<TRequest>(TRequest)
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).Invoke(Of TRequest)(TRequest)
+  nameWithType: PubTarget<TTarget>.Invoke<TRequest>(TRequest)
+  nameWithType.vb: PubTarget(Of TTarget).Invoke(Of TRequest)(TRequest)
+- uid: SwitchingPubSub.PubTarget`1.Invoke``2(``0)
+  name: Invoke<TRequest, TResult>(TRequest)
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_Invoke__2___0_
+  commentId: M:SwitchingPubSub.PubTarget`1.Invoke``2(``0)
+  name.vb: Invoke(Of TRequest, TResult)(TRequest)
+  fullName: SwitchingPubSub.PubTarget<TTarget>.Invoke<TRequest, TResult>(TRequest)
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).Invoke(Of TRequest, TResult)(TRequest)
+  nameWithType: PubTarget<TTarget>.Invoke<TRequest, TResult>(TRequest)
+  nameWithType.vb: PubTarget(Of TTarget).Invoke(Of TRequest, TResult)(TRequest)
+- uid: SwitchingPubSub.PubTarget`1.InvokeAsync*
+  name: InvokeAsync
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_InvokeAsync_
+  commentId: Overload:SwitchingPubSub.PubTarget`1.InvokeAsync
+  isSpec: "True"
+  fullName: SwitchingPubSub.PubTarget<TTarget>.InvokeAsync
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).InvokeAsync
+  nameWithType: PubTarget<TTarget>.InvokeAsync
+  nameWithType.vb: PubTarget(Of TTarget).InvokeAsync
+- uid: SwitchingPubSub.PubTarget`1.InvokeAsync``1(``0)
+  name: InvokeAsync<TRequest>(TRequest)
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_InvokeAsync__1___0_
+  commentId: M:SwitchingPubSub.PubTarget`1.InvokeAsync``1(``0)
+  name.vb: InvokeAsync(Of TRequest)(TRequest)
+  fullName: SwitchingPubSub.PubTarget<TTarget>.InvokeAsync<TRequest>(TRequest)
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).InvokeAsync(Of TRequest)(TRequest)
+  nameWithType: PubTarget<TTarget>.InvokeAsync<TRequest>(TRequest)
+  nameWithType.vb: PubTarget(Of TTarget).InvokeAsync(Of TRequest)(TRequest)
+- uid: SwitchingPubSub.PubTarget`1.InvokeAsync``2(``0)
+  name: InvokeAsync<TRequest, TResult>(TRequest)
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_InvokeAsync__2___0_
+  commentId: M:SwitchingPubSub.PubTarget`1.InvokeAsync``2(``0)
+  name.vb: InvokeAsync(Of TRequest, TResult)(TRequest)
+  fullName: SwitchingPubSub.PubTarget<TTarget>.InvokeAsync<TRequest, TResult>(TRequest)
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).InvokeAsync(Of TRequest, TResult)(TRequest)
+  nameWithType: PubTarget<TTarget>.InvokeAsync<TRequest, TResult>(TRequest)
+  nameWithType.vb: PubTarget(Of TTarget).InvokeAsync(Of TRequest, TResult)(TRequest)
+- uid: SwitchingPubSub.PubTarget`1.ServiceProvider
+  name: ServiceProvider
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_ServiceProvider
+  commentId: P:SwitchingPubSub.PubTarget`1.ServiceProvider
+  fullName: SwitchingPubSub.PubTarget<TTarget>.ServiceProvider
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).ServiceProvider
+  nameWithType: PubTarget<TTarget>.ServiceProvider
+  nameWithType.vb: PubTarget(Of TTarget).ServiceProvider
+- uid: SwitchingPubSub.PubTarget`1.ServiceProvider*
+  name: ServiceProvider
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_ServiceProvider_
+  commentId: Overload:SwitchingPubSub.PubTarget`1.ServiceProvider
+  isSpec: "True"
+  fullName: SwitchingPubSub.PubTarget<TTarget>.ServiceProvider
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).ServiceProvider
+  nameWithType: PubTarget<TTarget>.ServiceProvider
+  nameWithType.vb: PubTarget(Of TTarget).ServiceProvider
+- uid: SwitchingPubSub.PubTarget`1.Target
+  name: Target
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_Target
+  commentId: P:SwitchingPubSub.PubTarget`1.Target
+  fullName: SwitchingPubSub.PubTarget<TTarget>.Target
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).Target
+  nameWithType: PubTarget<TTarget>.Target
+  nameWithType.vb: PubTarget(Of TTarget).Target
+- uid: SwitchingPubSub.PubTarget`1.Target*
+  name: Target
+  href: api/SwitchingPubSub.PubTarget-1.html#SwitchingPubSub_PubTarget_1_Target_
+  commentId: Overload:SwitchingPubSub.PubTarget`1.Target
+  isSpec: "True"
+  fullName: SwitchingPubSub.PubTarget<TTarget>.Target
+  fullName.vb: SwitchingPubSub.PubTarget(Of TTarget).Target
+  nameWithType: PubTarget<TTarget>.Target
+  nameWithType.vb: PubTarget(Of TTarget).Target
+- uid: SwitchingPubSub.SwitchingClient`1
+  name: SwitchingClient<TTarget>
+  href: api/SwitchingPubSub.SwitchingClient-1.html
+  commentId: T:SwitchingPubSub.SwitchingClient`1
+  name.vb: SwitchingClient(Of TTarget)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget)
+  nameWithType: SwitchingClient<TTarget>
+  nameWithType.vb: SwitchingClient(Of TTarget)
+- uid: SwitchingPubSub.SwitchingClient`1.#ctor(IServiceProvider)
+  name: SwitchingClient(IServiceProvider)
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1__ctor_IServiceProvider_
+  commentId: M:SwitchingPubSub.SwitchingClient`1.#ctor(IServiceProvider)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.SwitchingClient(IServiceProvider)
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).SwitchingClient(IServiceProvider)
+  nameWithType: SwitchingClient<TTarget>.SwitchingClient(IServiceProvider)
+  nameWithType.vb: SwitchingClient(Of TTarget).SwitchingClient(IServiceProvider)
+- uid: SwitchingPubSub.SwitchingClient`1.#ctor*
+  name: SwitchingClient
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1__ctor_
+  commentId: Overload:SwitchingPubSub.SwitchingClient`1.#ctor
+  isSpec: "True"
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.SwitchingClient
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).SwitchingClient
+  nameWithType: SwitchingClient<TTarget>.SwitchingClient
+  nameWithType.vb: SwitchingClient(Of TTarget).SwitchingClient
+- uid: SwitchingPubSub.SwitchingClient`1.BeginInvoke*
+  name: BeginInvoke
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_BeginInvoke_
+  commentId: Overload:SwitchingPubSub.SwitchingClient`1.BeginInvoke
+  isSpec: "True"
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.BeginInvoke
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).BeginInvoke
+  nameWithType: SwitchingClient<TTarget>.BeginInvoke
+  nameWithType.vb: SwitchingClient(Of TTarget).BeginInvoke
+- uid: SwitchingPubSub.SwitchingClient`1.BeginInvoke``1(``0)
+  name: BeginInvoke<TRequest>(TRequest)
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_BeginInvoke__1___0_
+  commentId: M:SwitchingPubSub.SwitchingClient`1.BeginInvoke``1(``0)
+  name.vb: BeginInvoke(Of TRequest)(TRequest)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.BeginInvoke<TRequest>(TRequest)
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).BeginInvoke(Of TRequest)(TRequest)
+  nameWithType: SwitchingClient<TTarget>.BeginInvoke<TRequest>(TRequest)
+  nameWithType.vb: SwitchingClient(Of TTarget).BeginInvoke(Of TRequest)(TRequest)
+- uid: SwitchingPubSub.SwitchingClient`1.BeginInvoke``2(``0)
+  name: BeginInvoke<TRequest, TResult>(TRequest)
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_BeginInvoke__2___0_
+  commentId: M:SwitchingPubSub.SwitchingClient`1.BeginInvoke``2(``0)
+  name.vb: BeginInvoke(Of TRequest, TResult)(TRequest)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.BeginInvoke<TRequest, TResult>(TRequest)
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).BeginInvoke(Of TRequest, TResult)(TRequest)
+  nameWithType: SwitchingClient<TTarget>.BeginInvoke<TRequest, TResult>(TRequest)
+  nameWithType.vb: SwitchingClient(Of TTarget).BeginInvoke(Of TRequest, TResult)(TRequest)
+- uid: SwitchingPubSub.SwitchingClient`1.EndInvoke(SwitchingPubSub.AsyncResult)
+  name: EndInvoke(AsyncResult)
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_EndInvoke_SwitchingPubSub_AsyncResult_
+  commentId: M:SwitchingPubSub.SwitchingClient`1.EndInvoke(SwitchingPubSub.AsyncResult)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.EndInvoke(SwitchingPubSub.AsyncResult)
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).EndInvoke(SwitchingPubSub.AsyncResult)
+  nameWithType: SwitchingClient<TTarget>.EndInvoke(AsyncResult)
+  nameWithType.vb: SwitchingClient(Of TTarget).EndInvoke(AsyncResult)
+- uid: SwitchingPubSub.SwitchingClient`1.EndInvoke*
+  name: EndInvoke
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_EndInvoke_
+  commentId: Overload:SwitchingPubSub.SwitchingClient`1.EndInvoke
+  isSpec: "True"
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.EndInvoke
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).EndInvoke
+  nameWithType: SwitchingClient<TTarget>.EndInvoke
+  nameWithType.vb: SwitchingClient(Of TTarget).EndInvoke
+- uid: SwitchingPubSub.SwitchingClient`1.EndInvoke``1(SwitchingPubSub.AsyncResult)
+  name: EndInvoke<TResult>(AsyncResult)
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_EndInvoke__1_SwitchingPubSub_AsyncResult_
+  commentId: M:SwitchingPubSub.SwitchingClient`1.EndInvoke``1(SwitchingPubSub.AsyncResult)
+  name.vb: EndInvoke(Of TResult)(AsyncResult)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.EndInvoke<TResult>(SwitchingPubSub.AsyncResult)
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).EndInvoke(Of TResult)(SwitchingPubSub.AsyncResult)
+  nameWithType: SwitchingClient<TTarget>.EndInvoke<TResult>(AsyncResult)
+  nameWithType.vb: SwitchingClient(Of TTarget).EndInvoke(Of TResult)(AsyncResult)
+- uid: SwitchingPubSub.SwitchingClient`1.Invoke*
+  name: Invoke
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_Invoke_
+  commentId: Overload:SwitchingPubSub.SwitchingClient`1.Invoke
+  isSpec: "True"
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.Invoke
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).Invoke
+  nameWithType: SwitchingClient<TTarget>.Invoke
+  nameWithType.vb: SwitchingClient(Of TTarget).Invoke
+- uid: SwitchingPubSub.SwitchingClient`1.Invoke``1(``0)
+  name: Invoke<TRequest>(TRequest)
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_Invoke__1___0_
+  commentId: M:SwitchingPubSub.SwitchingClient`1.Invoke``1(``0)
+  name.vb: Invoke(Of TRequest)(TRequest)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.Invoke<TRequest>(TRequest)
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).Invoke(Of TRequest)(TRequest)
+  nameWithType: SwitchingClient<TTarget>.Invoke<TRequest>(TRequest)
+  nameWithType.vb: SwitchingClient(Of TTarget).Invoke(Of TRequest)(TRequest)
+- uid: SwitchingPubSub.SwitchingClient`1.Invoke``2(``0)
+  name: Invoke<TRequest, TResult>(TRequest)
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_Invoke__2___0_
+  commentId: M:SwitchingPubSub.SwitchingClient`1.Invoke``2(``0)
+  name.vb: Invoke(Of TRequest, TResult)(TRequest)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.Invoke<TRequest, TResult>(TRequest)
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).Invoke(Of TRequest, TResult)(TRequest)
+  nameWithType: SwitchingClient<TTarget>.Invoke<TRequest, TResult>(TRequest)
+  nameWithType.vb: SwitchingClient(Of TTarget).Invoke(Of TRequest, TResult)(TRequest)
+- uid: SwitchingPubSub.SwitchingClient`1.InvokeAsync*
+  name: InvokeAsync
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_InvokeAsync_
+  commentId: Overload:SwitchingPubSub.SwitchingClient`1.InvokeAsync
+  isSpec: "True"
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.InvokeAsync
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).InvokeAsync
+  nameWithType: SwitchingClient<TTarget>.InvokeAsync
+  nameWithType.vb: SwitchingClient(Of TTarget).InvokeAsync
+- uid: SwitchingPubSub.SwitchingClient`1.InvokeAsync``1(``0)
+  name: InvokeAsync<TRequest>(TRequest)
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_InvokeAsync__1___0_
+  commentId: M:SwitchingPubSub.SwitchingClient`1.InvokeAsync``1(``0)
+  name.vb: InvokeAsync(Of TRequest)(TRequest)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.InvokeAsync<TRequest>(TRequest)
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).InvokeAsync(Of TRequest)(TRequest)
+  nameWithType: SwitchingClient<TTarget>.InvokeAsync<TRequest>(TRequest)
+  nameWithType.vb: SwitchingClient(Of TTarget).InvokeAsync(Of TRequest)(TRequest)
+- uid: SwitchingPubSub.SwitchingClient`1.InvokeAsync``2(``0)
+  name: InvokeAsync<TRequest, TResult>(TRequest)
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_InvokeAsync__2___0_
+  commentId: M:SwitchingPubSub.SwitchingClient`1.InvokeAsync``2(``0)
+  name.vb: InvokeAsync(Of TRequest, TResult)(TRequest)
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.InvokeAsync<TRequest, TResult>(TRequest)
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).InvokeAsync(Of TRequest, TResult)(TRequest)
+  nameWithType: SwitchingClient<TTarget>.InvokeAsync<TRequest, TResult>(TRequest)
+  nameWithType.vb: SwitchingClient(Of TTarget).InvokeAsync(Of TRequest, TResult)(TRequest)
+- uid: SwitchingPubSub.SwitchingClient`1.PubTarget
+  name: PubTarget
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_PubTarget
+  commentId: P:SwitchingPubSub.SwitchingClient`1.PubTarget
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.PubTarget
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).PubTarget
+  nameWithType: SwitchingClient<TTarget>.PubTarget
+  nameWithType.vb: SwitchingClient(Of TTarget).PubTarget
+- uid: SwitchingPubSub.SwitchingClient`1.PubTarget*
+  name: PubTarget
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_PubTarget_
+  commentId: Overload:SwitchingPubSub.SwitchingClient`1.PubTarget
+  isSpec: "True"
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.PubTarget
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).PubTarget
+  nameWithType: SwitchingClient<TTarget>.PubTarget
+  nameWithType.vb: SwitchingClient(Of TTarget).PubTarget
+- uid: SwitchingPubSub.SwitchingClient`1.Services
+  name: Services
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_Services
+  commentId: P:SwitchingPubSub.SwitchingClient`1.Services
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.Services
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).Services
+  nameWithType: SwitchingClient<TTarget>.Services
+  nameWithType.vb: SwitchingClient(Of TTarget).Services
+- uid: SwitchingPubSub.SwitchingClient`1.Services*
+  name: Services
+  href: api/SwitchingPubSub.SwitchingClient-1.html#SwitchingPubSub_SwitchingClient_1_Services_
+  commentId: Overload:SwitchingPubSub.SwitchingClient`1.Services
+  isSpec: "True"
+  fullName: SwitchingPubSub.SwitchingClient<TTarget>.Services
+  fullName.vb: SwitchingPubSub.SwitchingClient(Of TTarget).Services
+  nameWithType: SwitchingClient<TTarget>.Services
+  nameWithType.vb: SwitchingClient(Of TTarget).Services

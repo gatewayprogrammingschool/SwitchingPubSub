@@ -1,4 +1,6 @@
-﻿public interface IInvocationResult
+﻿namespace SwitchingPubSub;
+
+public interface IInvocationResult
 {
     string Name { get; }
 

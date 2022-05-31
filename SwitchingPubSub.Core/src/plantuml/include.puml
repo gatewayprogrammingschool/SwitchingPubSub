@@ -1,0 +1,73 @@
+@startuml
+class "SwitchingClient"<TTarget> {
+    + TargetType : Type <<get>>
+    + PubTarget : IPubTarget<TTarget> <<get>>
+    + Services : IServiceProvider <<get>>
+    + SwitchingClient(services:IServiceProvider)
+    + InvokeAsync(parameters:TRequest) : Task
+    + InvokeAsync(parameters:TRequest) : Task<TResult>
+    + BeginInvoke(parameters:TRequest) : AsyncResult
+    + EndInvoke(result:AsyncResult) : void
+    + BeginInvoke(parameters:TRequest) : AsyncResult
+    + EndInvoke(result:AsyncResult) : TResult?
+    + Invoke(parameters:TRequest) : void
+    + Invoke(parameters:TRequest) : TResult?
+}
+class AsyncResult {
+    + AsyncState : object? <<get>> <<internal set>>
+    + CompletedSynchronously : bool <<get>> <<internal set>>
+    + IsCompleted : bool <<get>> <<internal set>>
+    + IsFaulted : bool <<get>> <<internal set>>
+    + Fault : Exception? <<get>> <<internal set>>
+    + AsyncWaitHandle : WaitHandle <<get>>
+    + Semaphore : Semaphore <<get>>
+    + Dispose() : void
+    + <<override>> ToString() : string
+}
+IAsyncResult <|-- AsyncResult
+IDisposable <|-- AsyncResult
+interface IInvocationParameters {
+    Name : string <<get>>
+    Parameters : IDictionary<string, object> <<get>>
+}
+interface IInvocationResult {
+    Name : string <<get>>
+    ReturnValues : IDictionary<string, object>? <<get>>
+    SetResult(result:object) : void
+}
+interface "IPubTarget"<out TTarget> {
+    TargetType : Type <<get>>
+    InvokeAsync(parameters:TRequest) : Task
+    InvokeAsync(parameters:TRequest) : Task<TResult>
+    BeginInvoke(parameters:TRequest) : AsyncResult
+    EndInvoke(result:AsyncResult) : void
+    BeginInvoke(parameters:TRequest) : AsyncResult
+    EndInvoke(result:AsyncResult) : TResult?
+    Invoke(parameters:TRequest) : void
+    Invoke(parameters:TRequest) : TResult?
+}
+interface "ISwitcingClient"<out TTarget> {
+    PubTarget : IPubTarget<TTarget> <<get>>
+}
+"IPubTarget" "<TTarget>" <|-- "ISwitcingClient"
+class "PubTarget"<TTarget> {
+    + TargetType : Type <<get>>
+    + Target : TTarget? <<get>> <<protected set>>
+    + ServiceProvider : IServiceProvider <<get>>
+    + PubTarget(serviceProvider:IServiceProvider)
+    + InvokeAsync(parameters:TRequest) : Task
+    + InvokeAsync(parameters:TRequest) : Task<TResult>
+    + BeginInvoke(parameters:TRequest) : AsyncResult
+    + EndInvoke(result:AsyncResult) : void
+    + BeginInvoke(parameters:TRequest) : AsyncResult
+    + EndInvoke(result:AsyncResult) : TResult?
+    + Invoke(parameters:TRequest) : void
+    + Invoke(parameters:TRequest) : TResult?
+}
+interface IMessageReceiver {
+    ReceiveMessageAsync(parameters:IDictionary<string, object>) : Task
+    ReceiveMessageAsync(parameters:IDictionary<string, object>) : Task<TResult?>
+}
+"IPubTarget" "<TTarget>" <|-- "PubTarget"
+"ISwitcingClient" "<TTarget>" <|-- "SwitchingClient"
+@enduml

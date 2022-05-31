@@ -5,17 +5,11 @@ VisualStudioVersion = 17.3.32519.111
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchingPubSub.Core", "SwitchingPubSub.Core\src\SwitchingPubSub.Core.csproj", "{A68C2F85-50B7-4BB3-B7C0-CCF987B5A396}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SwitchingPubSub.Shared", "SwitchingPubSub.Shared\SwitchingPubSub.Shared.shproj", "{A7C48EE1-4C85-4F19-A70C-5CC63ED5DDFC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75636B21-ECC5-424B-85FE-180B93D591DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EA1F95D1-8CB0-42CC-8C3C-01673FEA2399}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchingPubSub.Core.Tests", "SwitchingPubSub.Core\tests\SwitchingPubSub.Core.Tests.csproj", "{55B7EEAA-1141-4AD1-986C-18ABEC3E8E29}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchingPubSub.Core.NetStandard2", "SwitchingPubSub.Core.NetStandard2\src\SwitchingPubSub.Core.NetStandard2.csproj", "{DD3F63F6-05BE-4D43-8A2C-EFB5375B074B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchingPubSub.Core.NetStandard2.Tests", "SwitchingPubSub.Core.NetStandard2\tests\SwitchingPubSub.Core.NetStandard2.Tests.csproj", "{4628EE09-AE9C-401E-A3AE-6131F94B09E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{924549B8-6BE9-4192-AC71-5DEE63FCA83C}"
 	ProjectSection(SolutionItems) = preProject
@@ -39,24 +33,13 @@ Global
 		{55B7EEAA-1141-4AD1-986C-18ABEC3E8E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55B7EEAA-1141-4AD1-986C-18ABEC3E8E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55B7EEAA-1141-4AD1-986C-18ABEC3E8E29}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD3F63F6-05BE-4D43-8A2C-EFB5375B074B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD3F63F6-05BE-4D43-8A2C-EFB5375B074B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD3F63F6-05BE-4D43-8A2C-EFB5375B074B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD3F63F6-05BE-4D43-8A2C-EFB5375B074B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4628EE09-AE9C-401E-A3AE-6131F94B09E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4628EE09-AE9C-401E-A3AE-6131F94B09E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4628EE09-AE9C-401E-A3AE-6131F94B09E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4628EE09-AE9C-401E-A3AE-6131F94B09E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A68C2F85-50B7-4BB3-B7C0-CCF987B5A396} = {75636B21-ECC5-424B-85FE-180B93D591DC}
-		{A7C48EE1-4C85-4F19-A70C-5CC63ED5DDFC} = {75636B21-ECC5-424B-85FE-180B93D591DC}
 		{55B7EEAA-1141-4AD1-986C-18ABEC3E8E29} = {EA1F95D1-8CB0-42CC-8C3C-01673FEA2399}
-		{DD3F63F6-05BE-4D43-8A2C-EFB5375B074B} = {75636B21-ECC5-424B-85FE-180B93D591DC}
-		{4628EE09-AE9C-401E-A3AE-6131F94B09E6} = {EA1F95D1-8CB0-42CC-8C3C-01673FEA2399}
 		{11D47CF5-E090-4B30-82FD-EFAEC758542F} = {EA1F95D1-8CB0-42CC-8C3C-01673FEA2399}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
@@ -64,10 +47,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SwitchingPubSub.Tests.Shared\SwitchingPubSub.Tests.Shared.projitems*{11d47cf5-e090-4b30-82fd-efaec758542f}*SharedItemsImports = 13
-		SwitchingPubSub.Tests.Shared\SwitchingPubSub.Tests.Shared.projitems*{4628ee09-ae9c-401e-a3ae-6131f94b09e6}*SharedItemsImports = 5
 		SwitchingPubSub.Tests.Shared\SwitchingPubSub.Tests.Shared.projitems*{55b7eeaa-1141-4ad1-986c-18abec3e8e29}*SharedItemsImports = 5
-		SwitchingPubSub.Shared\SwitchingPubSub.Shared.projitems*{a68c2f85-50b7-4bb3-b7c0-ccf987b5a396}*SharedItemsImports = 5
-		SwitchingPubSub.Shared\SwitchingPubSub.Shared.projitems*{a7c48ee1-4c85-4f19-a70c-5cc63ed5ddfc}*SharedItemsImports = 13
-		SwitchingPubSub.Shared\SwitchingPubSub.Shared.projitems*{dd3f63f6-05be-4d43-8a2c-efb5375b074b}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

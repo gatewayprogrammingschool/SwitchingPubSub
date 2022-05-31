@@ -27,6 +27,6 @@ internal class AlternateMessageReceiver : IMessageReceiver
         TResult? result = Provider.GetRequiredService<TResult>();
         result.SetResult(parameters);
 
-        return Task<TResult?>.FromResult(result);
+        return Task.FromResult(result);
     }
 }

@@ -1,4 +1,4 @@
-﻿using AsyncResult = SwitchingPubSub.AsyncResult;
+﻿namespace SwitchingPubSub;
 
 public interface IPubTarget<out TTarget>
     where TTarget : IMessageReceiver

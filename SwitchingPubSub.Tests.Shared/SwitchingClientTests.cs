@@ -65,8 +65,8 @@ public class SwitchingClientTests : UnitTestBase
     public static object[] GetEmpty()
     {
         return new object[] {
-            new ValueTuple<ISwitcingClient<IMessageReceiver>, TestParameters>((ISwitcingClient<IMessageReceiver>)Client, new TestParameters()),
-            new ValueTuple<ISwitcingClient<IMessageReceiver>, TestParameters>((ISwitcingClient<IMessageReceiver>)AltClient, new TestParameters()),
+            new ValueTuple<ISwitcingClient<IMessageReceiver>, TestParameters>(Client!, new TestParameters()),
+            new ValueTuple<ISwitcingClient<IMessageReceiver>, TestParameters>(AltClient!, new TestParameters()),
         };
     }
 
@@ -74,8 +74,8 @@ public class SwitchingClientTests : UnitTestBase
     {
         Dictionary<string, object> dict = new() { { "p1", 0 } };
         return new object[] {
-            new ValueTuple<ISwitcingClient<IMessageReceiver>, TestParameters>((ISwitcingClient<IMessageReceiver>)Client, new TestParameters(dict)),
-            new ValueTuple<ISwitcingClient<IMessageReceiver>, TestParameters>((ISwitcingClient<IMessageReceiver>)AltClient, new TestParameters(dict)),
+            new ValueTuple<ISwitcingClient<IMessageReceiver>, TestParameters>(Client!, new TestParameters(dict)),
+            new ValueTuple<ISwitcingClient<IMessageReceiver>, TestParameters>(AltClient!, new TestParameters(dict)),
         };
     }
 

@@ -1,0 +1,15 @@
+@startuml
+class AsyncResult {
+    + AsyncState : object? <<get>> <<internal set>>
+    + CompletedSynchronously : bool <<get>> <<internal set>>
+    + IsCompleted : bool <<get>> <<internal set>>
+    + IsFaulted : bool <<get>> <<internal set>>
+    + Fault : Exception? <<get>> <<internal set>>
+    + AsyncWaitHandle : WaitHandle <<get>>
+    + Semaphore : Semaphore <<get>>
+    + Dispose() : void
+    + <<override>> ToString() : string
+}
+IAsyncResult <|-- AsyncResult
+IDisposable <|-- AsyncResult
+@enduml

@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IPubTarget&lt;TTarget&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IPubTarget&lt;TTarget&gt;
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SwitchingPubSub.IPubTarget`1">
+  
+  
+  <h1 id="SwitchingPubSub_IPubTarget_1" data-uid="SwitchingPubSub.IPubTarget`1" class="text-break">Interface IPubTarget&lt;TTarget&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SwitchingPubSub.html">SwitchingPubSub</a></h6>
+  <h6><strong>Assembly</strong>: SwitchingPubSub.Core.dll</h6>
+  <h5 id="SwitchingPubSub_IPubTarget_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IPubTarget&lt;out TTarget&gt;
+    where TTarget : IMessageReceiver</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1_TargetType.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601.TargetType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L6">View Source</a>
+  </span>
+  <a id="SwitchingPubSub_IPubTarget_1_TargetType_" data-uid="SwitchingPubSub.IPubTarget`1.TargetType*"></a>
+  <h4 id="SwitchingPubSub_IPubTarget_1_TargetType" data-uid="SwitchingPubSub.IPubTarget`1.TargetType">TargetType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">virtual Type TargetType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1_BeginInvoke__1___0_.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601.BeginInvoke%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L20">View Source</a>
+  </span>
+  <a id="SwitchingPubSub_IPubTarget_1_BeginInvoke_" data-uid="SwitchingPubSub.IPubTarget`1.BeginInvoke*"></a>
+  <h4 id="SwitchingPubSub_IPubTarget_1_BeginInvoke__1___0_" data-uid="SwitchingPubSub.IPubTarget`1.BeginInvoke``1(``0)">BeginInvoke&lt;TRequest&gt;(TRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AsyncResult BeginInvoke&lt;TRequest&gt;(TRequest parameters)
+    where TRequest : IInvocationParameters</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TRequest</span></td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SwitchingPubSub.AsyncResult.html">AsyncResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRequest</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1_BeginInvoke__2___0_.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601.BeginInvoke%60%602(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L25">View Source</a>
+  </span>
+  <a id="SwitchingPubSub_IPubTarget_1_BeginInvoke_" data-uid="SwitchingPubSub.IPubTarget`1.BeginInvoke*"></a>
+  <h4 id="SwitchingPubSub_IPubTarget_1_BeginInvoke__2___0_" data-uid="SwitchingPubSub.IPubTarget`1.BeginInvoke``2(``0)">BeginInvoke&lt;TRequest, TResult&gt;(TRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">AsyncResult BeginInvoke&lt;TRequest, TResult&gt;(TRequest parameters)
+    where TRequest : IInvocationParameters where TResult : IInvocationResult</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TRequest</span></td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SwitchingPubSub.AsyncResult.html">AsyncResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRequest</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1_EndInvoke_SwitchingPubSub_AsyncResult_.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601.EndInvoke(SwitchingPubSub.AsyncResult)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L23">View Source</a>
+  </span>
+  <a id="SwitchingPubSub_IPubTarget_1_EndInvoke_" data-uid="SwitchingPubSub.IPubTarget`1.EndInvoke*"></a>
+  <h4 id="SwitchingPubSub_IPubTarget_1_EndInvoke_SwitchingPubSub_AsyncResult_" data-uid="SwitchingPubSub.IPubTarget`1.EndInvoke(SwitchingPubSub.AsyncResult)">EndInvoke(AsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EndInvoke(AsyncResult result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SwitchingPubSub.AsyncResult.html">AsyncResult</a></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1_EndInvoke__1_SwitchingPubSub_AsyncResult_.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601.EndInvoke%60%601(SwitchingPubSub.AsyncResult)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L29">View Source</a>
+  </span>
+  <a id="SwitchingPubSub_IPubTarget_1_EndInvoke_" data-uid="SwitchingPubSub.IPubTarget`1.EndInvoke*"></a>
+  <h4 id="SwitchingPubSub_IPubTarget_1_EndInvoke__1_SwitchingPubSub_AsyncResult_" data-uid="SwitchingPubSub.IPubTarget`1.EndInvoke``1(SwitchingPubSub.AsyncResult)">EndInvoke&lt;TResult&gt;(AsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TResult EndInvoke&lt;TResult&gt;(AsyncResult result)
+    where TResult : IInvocationResult</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SwitchingPubSub.AsyncResult.html">AsyncResult</a></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1_Invoke__1___0_.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601.Invoke%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L32">View Source</a>
+  </span>
+  <a id="SwitchingPubSub_IPubTarget_1_Invoke_" data-uid="SwitchingPubSub.IPubTarget`1.Invoke*"></a>
+  <h4 id="SwitchingPubSub_IPubTarget_1_Invoke__1___0_" data-uid="SwitchingPubSub.IPubTarget`1.Invoke``1(``0)">Invoke&lt;TRequest&gt;(TRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Invoke&lt;TRequest&gt;(TRequest parameters)
+    where TRequest : IInvocationParameters</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TRequest</span></td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRequest</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1_Invoke__2___0_.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601.Invoke%60%602(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L35">View Source</a>
+  </span>
+  <a id="SwitchingPubSub_IPubTarget_1_Invoke_" data-uid="SwitchingPubSub.IPubTarget`1.Invoke*"></a>
+  <h4 id="SwitchingPubSub_IPubTarget_1_Invoke__2___0_" data-uid="SwitchingPubSub.IPubTarget`1.Invoke``2(``0)">Invoke&lt;TRequest, TResult&gt;(TRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TResult Invoke&lt;TRequest, TResult&gt;(TRequest parameters)
+    where TRequest : IInvocationParameters where TResult : IInvocationResult</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TRequest</span></td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRequest</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1_InvokeAsync__1___0_.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601.InvokeAsync%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L13">View Source</a>
+  </span>
+  <a id="SwitchingPubSub_IPubTarget_1_InvokeAsync_" data-uid="SwitchingPubSub.IPubTarget`1.InvokeAsync*"></a>
+  <h4 id="SwitchingPubSub_IPubTarget_1_InvokeAsync__1___0_" data-uid="SwitchingPubSub.IPubTarget`1.InvokeAsync``1(``0)">InvokeAsync&lt;TRequest&gt;(TRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task InvokeAsync&lt;TRequest&gt;(TRequest parameters)
+    where TRequest : IInvocationParameters</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TRequest</span></td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRequest</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1_InvokeAsync__2___0_.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601.InvokeAsync%60%602(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L16">View Source</a>
+  </span>
+  <a id="SwitchingPubSub_IPubTarget_1_InvokeAsync_" data-uid="SwitchingPubSub.IPubTarget`1.InvokeAsync*"></a>
+  <h4 id="SwitchingPubSub_IPubTarget_1_InvokeAsync__2___0_" data-uid="SwitchingPubSub.IPubTarget`1.InvokeAsync``2(``0)">InvokeAsync&lt;TRequest, TResult&gt;(TRequest)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;TResult&gt; InvokeAsync&lt;TRequest, TResult&gt;(TRequest parameters)
+    where TRequest : IInvocationParameters where TResult : IInvocationResult</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TRequest</span></td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRequest</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/new/master/apiSpec/new?filename=SwitchingPubSub_IPubTarget_1.md&amp;value=---%0Auid%3A%20SwitchingPubSub.IPubTarget%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/gatewayprogrammingschool/SwitchingPubSub/blob/master/SwitchingPubSub.Core/src/IPubTarget.cs/#L3" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

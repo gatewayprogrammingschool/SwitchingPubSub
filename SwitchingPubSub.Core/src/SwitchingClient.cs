@@ -1,5 +1,4 @@
-﻿
-using SwitchingPubSub;
+﻿namespace SwitchingPubSub;
 
 public class SwitchingClient<TTarget> : ISwitcingClient<TTarget>
     where TTarget : IMessageReceiver

@@ -1,0 +1,6 @@
+@startuml
+interface IInvocationParameters {
+    Name : string <<get>>
+    Parameters : IDictionary<string, object> <<get>>
+}
+@enduml

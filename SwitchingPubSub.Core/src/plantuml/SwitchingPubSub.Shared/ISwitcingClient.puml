@@ -1,0 +1,6 @@
+@startuml
+interface "ISwitcingClient`1"<out TTarget> {
+    PubTarget : IPubTarget<TTarget> <<get>>
+}
+"IPubTarget`1" "<TTarget>" <|-- "ISwitcingClient`1"
+@enduml

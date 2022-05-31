@@ -1,0 +1,7 @@
+@startuml
+interface IInvocationResult {
+    Name : string <<get>>
+    ReturnValues : IDictionary<string, object>? <<get>>
+    SetResult(result:object) : void
+}
+@enduml

@@ -1,4 +1,6 @@
-﻿public interface IInvocationParameters //<TType>
+﻿namespace SwitchingPubSub;
+
+public interface IInvocationParameters //<TType>
     // where TType : Type
 {
     string Name
