@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -10,10 +10,27 @@
 
   <ItemGroup>
     <None Include="..\..\.editorconfig" Link=".editorconfig" />
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <PropertyGroup>
     <DocTemplate>default,my-custom-template</DocTemplate>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Switching Pub-Sub</Title>
+    <Authors>Sharp Ninja &lt;ninja@thesharp.ninja&gt;</Authors>
+    <Company>Gateway Programming School, Inc.</Company>
+    <Copyright>©️ 2022 - Gateway Programming School, Inc.</Copyright>
+    <PackageProjectUrl>https://gatewayprogrammingschool.github.io/SwitchingPubSub/</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/gatewayprogrammingschool/SwitchingPubSub</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>pubsub</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseExpression> Apache-2.0</PackageLicenseExpression>
+    <IncludeSymbols>True</IncludeSymbols>
   </PropertyGroup>
 
   <ItemGroup>
